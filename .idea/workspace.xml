@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06d04015-0949-4c0a-9b34-c9589d9264ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Perceptron.py" beforeDir="false" afterPath="$PROJECT_DIR$/Perceptron.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,39 +32,39 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="228" />
-          <entry key="py" value="3689" />
+          <entry key="md" value="249" />
+          <entry key="py" value="3703" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="228" />
-          <entry key="Python" value="3689" />
+          <entry key="Markdown" value="249" />
+          <entry key="Python" value="3703" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="102">
-                <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <first_editor relative-caret-position="119">
+                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Perceptron.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+            <state relative-caret-position="459">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
-                <marker date="1584719158995" expanded="true" signature="339:453" ph="..." />
+                <marker date="1584719246068" expanded="true" signature="339:453" ph="..." />
               </folding>
             </state>
           </provider>
@@ -88,8 +88,8 @@
         <option value="$PROJECT_DIR$/Simple_XOR.py" />
         <option value="$PROJECT_DIR$/McP_AND.py" />
         <option value="$PROJECT_DIR$/McP_XOR.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Perceptron.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -249,7 +249,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20089285" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20089285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.32879046" />
       <window_info anchor="bottom" id="Python Console" />
@@ -271,16 +271,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="102">
-            <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Simple_XOR.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -307,11 +297,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Perceptron.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        <state relative-caret-position="459">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
-            <marker date="1584719158995" expanded="true" signature="339:453" ph="..." />
+            <marker date="1584719246068" expanded="true" signature="339:453" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="119">
+            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
