@@ -41,5 +41,5 @@ print("--------------------------------------")
 
 '''
 DESCRIPTION
-    1. tuple.all(): function returns 1 if all values of a tuple are True otherwise returns 0   
+1. tuple.all(): function returns 1 if all values of a tuple are True otherwise returns 0   
 '''
