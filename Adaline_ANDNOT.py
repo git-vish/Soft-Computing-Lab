@@ -22,7 +22,7 @@ W = np.array([.2, .2])
 b = .2
 alpha = .2
 E = []  # for saving errors
-epochs = 5
+epochs = 2
 
 
 # STEP-2: Learning
@@ -41,7 +41,15 @@ for epoch in range(epochs):
     E.append(sum(temp_e))
     print('--------------------------------------')
 
-print(E)
+# STEP-4: Printing results
+print("\n--------------]RESULT[----------------")
+print('\tEpoch\tError')
+for i in range(len(E)):
+    print('\tEpoch{}\t{}'.format(i+1, E[i]))
+print('\tw1 : {}, w2 : {}, b : {}'.format(W[0], W[1], b))
+print("--------------------------------------")
+
+# STEP-5: Visualization
 x_axis = range(1, len(E)+1)
 plt.scatter(x_axis, E, color='r')
 plt.legend('E')
