@@ -20,7 +20,8 @@
 6. [Experiment 6](https://github.com/cloud-VG/Soft-Computing-Lab/blob/master/Madline_XOR.py)
 
 ## Contact
-Vishwajeet Mahendra Ghatage
+**Vishwajeet Mahendra Ghatage**
+
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/vishwajeet-ghatage-75153213a/)
 
-:e-mail: [cloudmail.vishwajeet@gmail.com](cloudmail.vishwajeet@gmail.com)	   
+:e-mail: _cloudmail.vishwajeet@gmail.com_	   
