@@ -19,9 +19,9 @@
 5. [Experiment 5](https://github.com/cloud-VG/Soft-Computing-Lab/blob/master/Adaline_ANDNOT.py)
 6. [Experiment 6](https://github.com/cloud-VG/Soft-Computing-Lab/blob/master/Madline_XOR.py)
 
-## Contact
-**Vishwajeet Mahendra Ghatage**
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/vishwajeet-ghatage-75153213a/)
-
-:e-mail: _cloudmail.vishwajeet@gmail.com_	   
+## &copy; _Vishwajeet M. Ghatage_ <br /> [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/vishwajeet-ghatage-75153213a/)
+Computer Science and Technology, <br />
+Department Of Technology, <br />
+Shivaji University, Kolhapur <br />
+2019-20
+   
