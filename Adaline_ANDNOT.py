@@ -71,6 +71,6 @@ DESCRIPTION
 
 3. np.round(): function to round floating point vectors to given decimal
 
-4. sum(): function takes iterable type argument and returns the sum of its elemets
+4. sum(): function takes iterable type argument and returns the sum of its elements
 
 '''

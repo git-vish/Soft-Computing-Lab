@@ -30,9 +30,9 @@ for e in range(epoch):  # for epochs
             W = W + alpha * x * y
             b = b + alpha * y
         print('x1={}, x2={}, y={}, y_hat={}, w1={}, w2={}, b={}'.format(x[0], x[1], y, y_hat, W[0], W[1], b))
+        print('--------------------------------------')
     if (w_temp == W).all() and b_temp == b:
         break
-    print('--------------------------------------')
 
 # STEP-4: Printing results
 print("\n--------------]RESULT[----------------")
@@ -41,5 +41,6 @@ print("--------------------------------------")
 
 '''
 DESCRIPTION
+:: NOTE: epochs set to 3 but, learning completes at 2 epochs
 1. tuple.all(): function returns 1 if all values of a tuple are True otherwise returns 0   
 '''
