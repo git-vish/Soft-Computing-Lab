@@ -21,7 +21,7 @@ def activation(y_in):
 
 # STEP-3: Learning
 for e in range(epoch):  # for epochs
-    print('Epoch:', e+1)
+    print('Epoch:', e + 1)
     w_temp, b_temp = W, b
     for x, y in zip(X, Y):  # for single example
         y_in = W.dot(x) + b  # calculate y_in
@@ -38,6 +38,18 @@ for e in range(epoch):  # for epochs
 print("\n--------------]RESULT[----------------")
 print('\tw1 : {}, w2 : {}, b : {}'.format(W[0], W[1], b))
 print("--------------------------------------")
+
+
+# STEP-5: prediction
+def predict():
+    print('\nAND for bipolar inputs and targets')
+    x_test = np.array([int(input('Enter x1: ')), int(input('Enter x2: '))])
+    y_in_test = W.dot(x_test) + b
+    y_hat_test = activation(y_in_test)
+    print('AND:', y_hat_test)
+
+
+predict()
 
 '''
 DESCRIPTION

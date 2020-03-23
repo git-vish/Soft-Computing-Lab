@@ -24,6 +24,18 @@ for x, y in zip(X, Y_hat):
     print(x[0], '\t', x[1], '\t', y)
 
 
+# STEP 6: prediction
+def predict():
+    print('\nXOR for binary inputs and targets')
+    x_test = np.array([int(input('Enter x1: ')), int(input('Enter x2: '))])
+    y_in = W1.dot(x_test.transpose())
+    y_hat = activation(y_in)
+    y_in = W2.dot(y_hat)
+    y_hat = activation(y_in)
+    print('XOR:', y_hat)
+
+
+predict()
 '''
 DESCRIPTION
 1. numpy: it'a a python library for numerical computation, with VECTORIZATION capabilities
