@@ -21,7 +21,6 @@
 
 ## Contact
 Vishwajeet Mahendra Ghatage
-
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/vishwajeet-ghatage-75153213a/)
 
 :e-mail: [cloudmail.vishwajeet@gmail.com](cloudmail.vishwajeet@gmail.com)	   
