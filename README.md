@@ -24,6 +24,8 @@
 6. [Experiment 6 (Madaline)](https://github.com/cloud-VG/Soft-Computing-Lab/blob/master/Madline_XOR.py)
 7. [Experiment 7 (Back Propagation)](https://github.com/cloud-VG/Soft-Computing-Lab/blob/master/BackProp_XOR.py)
 <br /> **Optional** [Back Propagation in Keras](https://github.com/cloud-VG/Soft-Computing-Lab/blob/master/BackProp_XOR_keras.py) 
+8. [Experiment 8 (Classical Sets)](https://github.com/cloud-VG/Soft-Computing-Lab/blob/master/Set_Ops.py)
+9. [Experiment 9 (Fuzzy Sets)](https://github.com/cloud-VG/Soft-Computing-Lab/blob/master/Fuzzy_Ops.py)
 
 
 ## &copy; _Vishwajeet M. Ghatage_ <br /> [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/vishwajeet-ghatage-75153213a/)
