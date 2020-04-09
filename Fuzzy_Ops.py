@@ -1,45 +1,70 @@
-# STEP-1: defining functions
-def union(fs1, fs2):  # A U B = max(mA, mB)
-    temp = []
-    for i in range(len(fs1)):
-        if fs1[i][0] > fs2[i][0]:
-            temp.append(fs1[i])
-        else:
-            temp.append(fs2[i])
-    return temp
+# STEP-1: Defining FuzzySet class with its operations using operator overloading
+class FuzzySet:
+    def __init__(self, fs):
+        self.fs = fs
+
+    def __len__(self):
+        return len(self.fs)
+
+    def __or__(self, other):    # union(A, B) = max(mA, mB)
+        assert len(self) == len(other), "Both Fuzzy Sets must have same length"
+        fs2 = other.fs
+        temp = []
+        for i in range(len(self.fs)):
+            if self.fs[i][0] > fs2[i][0]:
+                temp.append(self.fs[i])
+            else:
+                temp.append(fs2[i])
+        return FuzzySet(temp)
+
+    def __and__(self, other):   # intersection(A, B) = min(mA, mB)
+        assert len(self) == len(other), "Both Fuzzy Sets must have same length"
+        fs2 = other.fs
+        temp = []
+        for i in range(len(self.fs)):
+            if self.fs[i][0] < fs2[i][0]:
+                temp.append(self.fs[i])
+            else:
+                temp.append(fs2[i])
+        return FuzzySet(temp)
+
+    def __invert__(self):   # compliment(A) = 1 - mA(x)
+        temp = []
+        for i in self.fs:
+            e = 1 - i[0]
+            temp.append([e, i[1]])
+        return FuzzySet(temp)
+
+    def __sub__(self, other):   # A-B = intersection(A, compliment(B))
+        assert len(self) == len(other), "Both Fuzzy Sets must have same length"
+        return self.__and__(other.__invert__())
+
+    def __str__(self):
+        return str(self.fs)
 
 
-def intersection(fs1, fs2):  # A inter B = min(mA, mB)
-    temp = []
-    for i in range(len(fs1)):
-        if fs1[i][0] < fs2[i][0]:
-            temp.append(fs1[i])
-        else:
-            temp.append(fs2[i])
-    return temp
+# STEP-2: Declaring FuzzySets
+a = FuzzySet([[1, 2], [0.3, 4], [0.5, 6], [0.2, 8]])
+b = FuzzySet([[0.5, 2], [0.4, 4], [0.1, 6], [1, 8]])
 
-
-def compliment(fs):  # A' = 1 - mA(x)
-    temp = []
-    for i in fs:
-        e = 1 - i[0]
-        temp.append([e, i[1]])
-    return temp
-
-
-def difference(fs1, fs2):  # A - B = A inter B'
-    return intersection(fs1, compliment(fs2))
-
-
-# STEP-2: performing Operations
-a = [[1, 2], [0.3, 4], [0.5, 6], [0.2, 8]]
-b = [[0.5, 2], [0.4, 4], [0.1, 6], [1, 8]]
-
+# STEP-3: Generating results
 print("A:", a)
 print("B:", b)
-print('\n1. A union B:', union(a, b))
-print('2. A inter B:', intersection(a, b))
-print("3. A':", compliment(a))
-print("4. B':", compliment(b))
-print('5. A - B:', difference(a, b))
-print('6. B - A:', difference(b, a))
+print('\n1. A union B:', a | b)
+print('2. A inter B:', a & b)
+print("3. A':", ~a)
+print("4. B':", ~b)
+print('5. A - B:', a - b)
+print('6. B - A:', b - a)
+
+
+'''
+DESCRIPTION:
+    In class FuzzySet we have overloaded some operators to represent FuzzySet Operations
+    In Python operator are overloaded using there associated methods
+    e.g.    & -> __and__()
+            | -> __or__()
+            - -> __sub__() etc.
+    __str__() method is similar to toString() in other languages, which return String format of the calling object 
+    object.__len__() method is called when len(object) is called, return length of object
+'''
