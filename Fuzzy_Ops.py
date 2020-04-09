@@ -67,4 +67,5 @@ DESCRIPTION:
             - -> __sub__() etc.
     __str__() method is similar to toString() in other languages, which return String format of the calling object 
     object.__len__() method is called when len(object) is called, return length of object
+    assert is a keyword used to raise exception if the given condition not satisfied
 '''
