@@ -28,7 +28,10 @@
 9. [Experiment 9 (Fuzzy Sets)](https://github.com/cloud-VG/Soft-Computing-Lab/blob/master/Fuzzy_Ops.py)
 10. [Experiment 10 (Maximization GA)](https://github.com/cloud-VG/Soft-Computing-Lab/blob/master/GA_Max.py)
 11. [Experiment 11 (Minimization GA)](https://github.com/cloud-VG/Soft-Computing-Lab/blob/master/GA_Min.py)
+11. [Experiment 12 (Travelling Salses Person GA)](https://github.com/cloud-VG/Soft-Computing-Lab/blob/master/GA_TSP.py)
 
+## Reference for Genetic Algorithm
+[_MorvanZhou's Website_](https://morvanzhou.github.io/tutorials/)
 
 ## &copy; _Vishwajeet M. Ghatage_ <br /> [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/vishwajeet-ghatage-75153213a/)
 Computer Science and Technology, <br />

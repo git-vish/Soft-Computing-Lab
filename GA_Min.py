@@ -55,6 +55,10 @@ final = []
 plt.ion()
 x = np.linspace(*BOUND, 200)
 plt.plot(x, func(x))
+plt.title('Genetic Algorithm Minimizing f(x)=x^2')
+plt.xlabel('x')
+plt.ylabel('f(x) = x^2')
+
 
 for _ in range(GENERATIONS):
     f = func(translate_dna(population))
