@@ -10,7 +10,7 @@
     ```sh
     pip install matplotlib
     ```
-- [keras](https://pypi.org/project/Keras/)
+- [keras](https://pypi.org/project/Keras/) (optional)
     ```sh
     pip install keras
     ```
