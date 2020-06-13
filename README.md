@@ -33,7 +33,7 @@
 ## Reference for Genetic Algorithm
 [_MorvanZhou's Website_](https://morvanzhou.github.io/tutorials/)
 
-## &copy; _Vishwajeet M. Ghatage_ <br /> [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/vishwajeet-ghatage-75153213a/)
+## &copy; _Vishwajeet M. Ghatage_ <br /> [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/vishwajeet-ghatage/)
 Computer Science and Technology, <br />
 Department Of Technology, <br />
 Shivaji University, Kolhapur <br />
